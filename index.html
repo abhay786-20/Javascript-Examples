@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum Arguments</title>
+</head>
+<body>
+    
+  <script>
+
+    function sum(...args){
+    console.log(args);
+    let su = 0;
+
+    for(var i = 0; i<args.length; i++){
+        su = su + args[i];
+    }
+    return su;
+   }
+
+  
+  let arr = [1,2,3];
+  let arr1 = [4,5,6];
+  let arr2 = [...arr,...arr1];
+  console.log(arr);
+  console.log(arr1);
+  console.log(arr2);
+  console.log(sum(...arr2));
+
+  for(let x of arr2){
+     console.log(x);
+  }
+
+  let str = "Abhay Sharma";
+
+  for(let i of str){
+    console.log(i);
+  }
+  let strr = "Abhay Sharma";
+  console.log(`Hii 
+Good Morning !!!`);
+
+</script>
+
+</body>
+</html>

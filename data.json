@@ -1,0 +1,14 @@
+ {
+    "name" : "Abhay",
+    "age" : 21,
+    "sex" : "M",
+    "is_student" : true,
+    "passport" : null,
+    "p_lang" : ["C","C++","Python"],
+    "address" : {
+        "city" : "Varanasi",
+        "state" : "Uttar Pradesh",
+        "pincode" : 221010
+    }
+}
+
